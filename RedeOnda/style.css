@@ -1,0 +1,119 @@
+/*style="cursor: pointer;"*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+Body{
+    margin: 0;
+    background: linear-gradient(to bottom right , white 48%, rgb(255, 196, 0 )  );
+}
+
+
+
+.nav-bar{
+    margin: 20px 0 0 50px;
+}
+
+.nav-bar img{
+    margin: 5px 0 0 0;
+    height: 30px;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+
+.imageFirst{
+    
+    height: 500px;
+    
+}
+.imageFirst img{
+    margin: 90px 0 0 10px;
+    width: 80%;
+    
+}
+
+
+.Form-Login{
+    display: none;
+}
+.logo-Login img{
+   margin: 10px 0 5px 70px;
+ 
+}
+#form-div{
+    background-color: white;
+    width: 25%;
+    height: auto;
+    border: 1.5px solid rgba(255, 194, 0, 0.65);
+    align-items: center;
+    
+    
+}
+#div-span{
+    margin: 20px 0 0 23px;
+    width: 290px;
+    height: 35px;
+    text-align: center;
+    border-bottom: 1.5px solid black;
+    
+    
+    
+}
+#div-span span{
+    padding-left: 30px;
+    padding-right: 30px;
+    cursor: pointer; 
+}
+#span-Login{
+    color: rgba(130, 130, 131, 0.795);
+    
+}
+span:hover{
+    color: rgb(79, 79, 80);
+}
+
+form{
+    margin: 20px 0 0 35px;
+   
+ 
+    
+}
+form input{
+    margin-top: 20px;
+    width: 250px;
+    height: 25px;
+    color: rgba(0, 0, 0, 0.49);
+    padding: 3px 3px 3px 15px;
+    border-radius: 5px ;
+    border: 1.5px;
+    border-color: rgba(0, 0, 0, 0.49);
+    background-color: rgba(112, 109, 109, 0.23);
+}
+
+button{
+    background-color: rgba(12, 197, 255, 1);
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    border: none;
+    border-radius: 20px ;
+    width: 260px;
+    height: 40px;
+    margin: 30px 0 50px 0;
+    font-size: 20px;
+    padding: 2px 0 2px 0;
+   
+}
+footer{
+    width: auto;
+    height: 60px;
+}
