@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="src/script.js" defer></script>
     <title>Rede Onda</title>
 </head>
 <body>
@@ -31,7 +32,15 @@
             <label for="email-confirm"></label>
             <input type="email"  placeholder="Confirm Email" required>
             <label for="password"></label>
-            <input type="password"placeholder="Password" required>
+            <input id="passwordInput" type="password" placeholder="Password" required>
+            <div class="password-strength-bar">
+                <div id="password-strength-indicator" class="strength-indicator"></div>
+            </div>
+            <p id="password-strength-text"></p>
+            <p id="tip">
+              Sua senha precisa conter letras minúsculas e maiúsculas, números e
+              caracteres especiais.
+            </p>
             <label for="password-confirm"></label>
             <input type="password" placeholder="Confirm Password" required>
             <button type="submit">Register</button>
